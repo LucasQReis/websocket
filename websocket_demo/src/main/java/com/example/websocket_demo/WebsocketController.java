@@ -19,7 +19,7 @@ public class WebsocketController {
     @MessageMapping("/message")
     public void handleMessage(Message message) {
         System.out.println("Message received: " + message.getUser() + ": " + message.getMessage());
-        messagingTemplate.convertAndSend("/topic/messages ", message);
+        messagingTemplate.convertAndSend("/topic/messages", message);
         System.out.println("Message sent to topic /topic/messages : " + message.getUser() + ": " + message.getMessage());
     }
 
