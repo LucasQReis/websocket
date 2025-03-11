@@ -27,6 +27,8 @@ git clone https://github.com/LucasQReis/websocket.git
 
 
 Edite as configurações do seu editor e adicione duas novas configurações de aplicações, uma App direcionada para executar a classe App.java e uma WebSocket para executar o WebsocketDemoApplication.java
+
+
 ![image](https://github.com/user-attachments/assets/65e9dd7f-7e45-47ea-b72c-6acaef3ae1ac)
 
 
